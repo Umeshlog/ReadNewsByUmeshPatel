@@ -5,7 +5,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-info">
           <div className="container-fluid">
             <Link className="navbar-brand"   to="/">
               Newses
@@ -27,7 +27,7 @@ export class Navbar extends Component {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                   <Link className="nav-link active" aria-current="page"   to="/">
+                   <Link className="nav-link  textdeco text-white" aria-current="page"   to="/">
                     Home
                    </Link >
                 </li>
@@ -37,37 +37,37 @@ export class Navbar extends Component {
                    </Link >
                 </li> */}
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/business">
+                   <Link className="nav-link  textdeco text-white "   to="/business">
                     Business{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "  to="/entertainment">
+                   <Link className="nav-link  textdeco text-white"  to="/entertainment">
                     Entertainment{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/general">
+                   <Link className="nav-link  textdeco text-white"   to="/general">
                     General{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/health">
+                   <Link className="nav-link  textdeco text-white"   to="/health">
                     Health{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/science">
+                   <Link className="nav-link  textdeco text-white"   to="/science">
                     Science{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/sports">
+                   <Link className="nav-link  textdeco text-white"   to="/sports">
                     Sports{" "}
                    </Link >{" "}
                 </li>
                 <li className="nav-item">
-                   <Link className="nav-link "   to="/technology">
+                   <Link className="nav-link  textdeco text-white"   to="/technology">
                     Technology{" "}
                    </Link >{" "}
                 </li>
