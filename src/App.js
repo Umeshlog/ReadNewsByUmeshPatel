@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import LoadingBar from "react-top-loading-bar";
 import News from "./components/news";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./App.css"
 
 export default class App extends Component {
   pageSize = 5;
